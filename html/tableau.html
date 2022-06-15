@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!--Derek Chun - 6/15/2022-->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Derek Chun-Tableau</title>
+        <!-- ONLY MY CUSTOM STYLES-->
+        <link href="../styles/bootstyles.css" rel="stylesheet"/>
+</head>
+<body>
+    <!-- Background Image-->
+    <style>
+        body {
+            background-image: url(data:image/jpeg;base64,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);
+        }
+    </style>
+     <!-- Navigation-->
+<div class="navbar">
+    <ul>
+        <li>
+            <a href="../index.html">Home</a>   
+        </li>
+        <li>
+            <a href="about.html">About Me</a>    
+        </li>
+        <li>
+            <a href="tableau.html">Tableau</a>    
+        </li>
+    </ul>
+</div>
+    <!-- Page Header-->
+    <header class="center_text">
+        <h1 class="font_larger">Tableu</h1>
+            <span class="subheading">Charts with Live Information</span>
+    </header>
+    <!-- Divider-->
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+    <!-- Main Body (Tableau)-->        
+        <div class="centered">
+            <!-- First Graph-->
+                <div class='tableauPlaceholder' id='viz1655166215692' style='position: relative'><noscript><a href='#'><img alt='State&#39;s Profit ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Pa&#47;Part1_16551661978600&#47;Sheet1&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='Part1_16551661978600&#47;Sheet1' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Pa&#47;Part1_16551661978600&#47;Sheet1&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' /><param name='filter' value='publish=yes' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1655166215692');                    var vizElement = divElement.getElementsByTagName('object')[0];                    vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';                    var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+                <h6 class="center_text">This graph shows the sum of profit by state</h6>    
+            <!-- Divider-->
+            <br>
+            <br>
+                <!-- Second Graph-->
+                    <div class='tableauPlaceholder' id='viz1655166242224' style='position: relative'><noscript><a href='#'><img alt='Highest-profit state profit by month for the past 2 years ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Pa&#47;Part2_16551661775570&#47;Sheet2&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='Part2_16551661775570&#47;Sheet2' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Pa&#47;Part2_16551661775570&#47;Sheet2&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' /><param name='filter' value='publish=yes' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1655166242224');                    var vizElement = divElement.getElementsByTagName('object')[0];                    vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';                    var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+                    <h6 class="center_text">This graph shows the profit of California by month over the past 2 years</h6>
+            <!-- Divider-->
+            <br>
+            <br>
+                    <!-- Third section-->
+                        <div class='tableauPlaceholder' id='viz1655166153082' style='position: relative'><noscript><a href='#'><img alt='Profit by category- California ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Pa&#47;Part3_16551661192350&#47;Sheet4&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='Part3_16551661192350&#47;Sheet4' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Pa&#47;Part3_16551661192350&#47;Sheet4&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' /><param name='filter' value='publish=yes' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1655166153082');                    var vizElement = divElement.getElementsByTagName('object')[0];                    vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';                    var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+                        <h6 class="center_text">This graph shows the profit by product category in Calfornia</h6>
+            <!-- Divider-->
+            <br>
+            <br>
+                        <!-- Fourth Graph-->
+                            <div class='tableauPlaceholder' id='viz1655313372978' style='position: relative'><noscript><a href='#'><img alt='Most profitable catagory forecast ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Pa&#47;Part2_16551661775570&#47;Sheet3&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='Part2_16551661775570&#47;Sheet3' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Pa&#47;Part2_16551661775570&#47;Sheet3&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' /><param name='filter' value='publish=yes' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1655313372978');                    var vizElement = divElement.getElementsByTagName('object')[0];                    vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';                    var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+                            <h6 class="center_text">This graph shows a forecast through November 2015 for office supplies in California</h6>
+            <!-- Divider-->
+            <br>
+            <br>
+        </div>
+    <!-- Footer-->
+    <div class="footer">
+        <h2 class="footer_title">Contact Me </h2>
+            <ul>
+                <li>
+                805-111-1111
+                </li>
+                <li>
+                <a href="mailto:is201project@gmail.com" target="_blank" rel="noopener" style="color:blue">is201project@gmail.com</a>
+                </li>
+                <li>
+                <a style="color:blue" href="https://www.linkedin.com/in/derek-chun-4a9a2b206/">LinkedIn</a>
+                </li>
+            </ul>
+    </div>
+    <div class="copyright">Copyright &copy; Derek Chun 2022</div>
+</body>
+</html>
